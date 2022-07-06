@@ -38,8 +38,9 @@ class regcliente(BaseModel):
     email : str    
 
 origin =[
-     "https://8080-ingridnatal-aplicacionw-uo942ndzvue.ws-us51.gitpod.io/",
-     "https://8000-ingridnatal-aplicacionw-uo942ndzvue.ws-us51.gitpod.io/",
+    "https://8000-ingridnatal-aplicacionw-uo942ndzvue.ws-us51.gitpod.io/",
+    "https://8080-ingridnatal-aplicacionw-uo942ndzvue.ws-us51.gitpod.io/",
+     
 ]
 
 app.add_middleware(
