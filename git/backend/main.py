@@ -38,8 +38,8 @@ class regcliente(BaseModel):
     email : str    
 
 origin =[
-    "https://8000-ingridnatal-aplicacionw-uo942ndzvue.ws-us51.gitpod.io/",
-    "https://8080-ingridnatal-aplicacionw-uo942ndzvue.ws-us51.gitpod.io/",
+    "https://8000-ingridnatal-aplicacionw-ayvm9i1nu5i.ws-us53.gitpod.io/",
+    "https://8080-ingridnatal-aplicacionw-ayvm9i1nu5i.ws-us53.gitpod.io/",
      
 ]
 

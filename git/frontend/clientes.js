@@ -2,11 +2,11 @@ function getClientes() {
 
     var request = new XMLHttpRequest();
     //Accede a la session de la pagina
-    username= sessionStorage.getItem("username");
-    password= sessionStorage.getItem("password");
+    username= prompt("username");
+    password= prompt("password");
     
 
-    request.open('GET', "https://8000-ingridnatal-aplicacionw-uo942ndzvue.ws-us51.gitpod.io/clientes/"); //pasamos el metodo y luego el endpoint que es la url
+    request.open('GET', "https://8000-ingridnatal-aplicacionw-ayvm9i1nu5i.ws-us53.gitpod.io/clientes/"); //pasamos el metodo y luego el endpoint que es la url
     request.setRequestHeader("Accept", "application/json");
     request.setRequestHeader("Authorization", "Basic " + btoa(username + ":" + password))
     request.setRequestHeader("content-type", "application/json");
